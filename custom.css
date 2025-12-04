@@ -3,11 +3,16 @@
 :root {
   --espresso: #4B2E19;   
   --latte:    #F5E6D3;   
-  --accent:   #C68B59;  
+  --accent:   #C68B59;
+  --cream:    #FFF7EF;  
 }
+
+* { box-sizing: border-box; }
 
 body {
   background-color: var(--latte);
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 .bg-espresso {
@@ -34,6 +39,10 @@ body {
   background-color: var(--accent) !important;
 }
 
+.bg-cream {
+  background-color: #FFF7EF;
+}
+
 /* Navbar */
 
 .nav-link {
@@ -44,4 +53,15 @@ body {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--accent) !important; 
+}
+
+/* Index.html main */
+
+.index-img {
+  max-height: 300px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+.index-img:hover {
+  transform: scale(1.05);
 }
