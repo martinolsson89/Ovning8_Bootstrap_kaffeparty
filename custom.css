@@ -1,3 +1,5 @@
+/* Primary colors */
+
 :root {
   --espresso: #4B2E19;   
   --latte:    #F5E6D3;   
@@ -6,4 +8,40 @@
 
 body {
   background-color: var(--latte);
+}
+
+.bg-espresso {
+  background-color: var(--espresso) !important;
+}
+
+.text-espresso {
+  color: var(--espresso) !important;
+}
+
+.bg-latte {
+  background-color: var(--latte) !important;
+}
+
+.text-latte {
+  color: var(--latte) !important;
+}
+
+.text-accent {
+  color: var(--accent) !important;
+}
+
+.bg-accent {
+  background-color: var(--accent) !important;
+}
+
+/* Navbar */
+
+.nav-link {
+  color: var(--latte) !important; 
+  transition: color 0.2s ease-in-out;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent) !important; 
 }
