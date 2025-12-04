@@ -1,0 +1,9 @@
+:root {
+  --espresso: #4B2E19;   
+  --latte:    #F5E6D3;   
+  --accent:   #C68B59;  
+}
+
+body {
+  background-color: var(--latte);
+}
