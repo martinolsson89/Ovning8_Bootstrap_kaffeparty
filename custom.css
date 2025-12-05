@@ -40,7 +40,7 @@ body {
 }
 
 .bg-cream {
-  background-color: #FFF7EF;
+  background-color: var(--cream) !important;
 }
 
 /* Navbar */
@@ -71,7 +71,7 @@ body {
   border-style: dashed !important;
 }
 
-/* products.html */
+/* products.html main */
 
 .product-card {
   border: none;
@@ -103,3 +103,34 @@ body {
   border-color: var(--espresso);
 }
 
+/* about.html main */
+
+.contact-card {
+  border: none;
+  border-radius: 0.75rem;
+  background-color: var(--cream);
+}
+
+.contact-avatar {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.contact-role {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.contact-link {
+  color: var(--espresso);
+  text-decoration: none;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  text-decoration: underline;
+}
