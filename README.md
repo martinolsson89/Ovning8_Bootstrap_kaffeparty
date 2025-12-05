@@ -24,4 +24,8 @@ You can open the pages directly in your browser by double-clicking `index.html`.
 - Use Bootstrap utility classes for layout and spacing; keep custom CSS minimal.
 - If you change image paths or add new assets, place them under `assets/` and update HTML references accordingly.
 
+## Deployment
+
+- Website is deployed to azure. 
+- Visit at: [Website](https://happy-forest-0a60de103.3.azurestaticapps.net/)
 
