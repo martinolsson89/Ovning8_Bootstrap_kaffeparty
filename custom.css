@@ -65,3 +65,9 @@ body {
 .index-img:hover {
   transform: scale(1.05);
 }
+
+.border-style {
+  border-color: var(--latte) !important;
+  border-style: dashed !important;
+}
+
