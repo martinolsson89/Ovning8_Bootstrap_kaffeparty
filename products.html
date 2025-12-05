@@ -11,9 +11,9 @@
 </head>
 
 <body>
-  <header class="bg-espresso">
+  <header class="container-fluid bg-espresso">
     <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
+      <div class="container border border-style rounded py-2 m-3">
         <a class="navbar-brand fw-bold text-latte" href="index.html">
           <img src="/assets/coffebean-dark.png" alt="company logo" width="40" height="34"
             class="d-inline-block align-text-top">
@@ -22,7 +22,6 @@
         <button class="navbar-toggler bg-latte" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="mainNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
@@ -39,14 +38,126 @@
       </div>
     </nav>
   </header>
-<main>
-    
-</main>
 
+  <main class="container my-5">
+    <div class="row g-5">
 
-<footer class="bg-espresso">
-  <p class="text-latte">Copyright © Dec 2025 Martin Olsson</p>
-</footer>
+      <section class="col-lg-7">
+        <div class="mb-4">
+          <h1 class="h2 text-espresso mb-2">Kaffemaskiner</h1>
+          <p class="text-muted mb-0">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4">
+
+          <div class="col">
+            <article class="card h-100 shadow-sm product-card">
+              <img src="/assets/coffeemaker.png" class="card-img-top product-img" alt="Nordic Brew One kaffemaskin">
+              <div class="card-body">
+                <h2 class="card-title h5 text-espresso mb-1">Nordic Brew One</h2>
+                <p class="card-text small mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="card-text">
+                  <span class="badge bg-accent text-espresso fw-semibold">Sed sagittis dui id efficitur.</span>
+                </p>
+              </div>
+              <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+                <span class="fw-bold price-tag">3 495 kr</span>
+                <button class="btn btn-sm btn-outline-espresso">Läs mer</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100 shadow-sm product-card">
+              <img src="/assets/coffeemaker.png" class="card-img-top product-img" alt="Nordic Brew Pro kaffemaskin">
+              <div class="card-body">
+                <h2 class="card-title h5 text-espresso mb-1">Nordic Brew Pro</h2>
+                <p class="card-text small mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="card-text">
+                  <span class="badge bg-accent text-espresso fw-semibold">Sed sagittis dui id efficitur.</span>
+                </p>
+              </div>
+              <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+                <span class="fw-bold price-tag">8 990 kr</span>
+                <button class="btn btn-sm btn-outline-espresso">Läs mer</button>
+              </div>
+            </article>
+          </div>
+
+          <div class="col">
+            <article class="card h-100 shadow-sm product-card">
+              <img src="/assets/coffeemaker.png" class="card-img-top product-img" alt="Nordic Brew Office kaffemaskin">
+              <div class="card-body">
+                <h2 class="card-title h5 text-espresso mb-1">Nordic Brew Office</h2>
+                <p class="card-text small mb-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="card-text">
+                  <span class="badge bg-accent text-espresso fw-semibold">Sed sagittis dui id efficitur.</span>
+                </p>
+              </div>
+              <div class="card-footer bg-transparent border-0 d-flex justify-content-between align-items-center">
+                <span class="fw-bold price-tag">14 500 kr</span>
+                <button class="btn btn-sm btn-outline-espresso">Läs mer</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="col-lg-5">
+        <header class="mb-4">
+          <h1 class="h2 text-espresso mb-2">Kaffeparty</h1>
+          <p class="text-muted mb-0">
+            Vestibulum feugiat faucibus diam vel euismod. Aliquam erat volutpat.
+          </p>
+        </header>
+
+        <div class="row g-3">
+
+          <div class="col-12">
+            <article class="card h-100 shadow-sm bg-cream border-0">
+              <div class="card-body">
+                <h2 class="h5 text-espresso mb-2">Företag</h2>
+                <p class="small mb-3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce laoreet convallis purus ac tincidunt. 
+                </p>
+                <ul class="list-unstyled small mb-0">
+                  <li>• Lorem ipsum dolor sit amet</li>
+                  <li>• Fusce laoreet convallis purus ac tincidunt</li>
+                  <li>• Vestibulum feugiat faucibus diam vel euismod</li>
+                  <li>• Aliquam erat volutpat</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12">
+            <article class="card h-100 shadow-sm bg-espresso text-latte border-0">
+              <div class="card-body">
+                <h2 class="h5 mb-2">Privatpersoner</h2>
+                <p class="small mb-3">
+                  Donec vestibulum non nisi vitae facilisis. Curabitur ut libero nec nulla efficitur tincidunt.
+                </p>
+                <ul class="list-unstyled small mb-0">
+                  <li>• Lorem ipsum dolor sit amet</li>
+                  <li>• Fusce laoreet convallis purus ac tincidunt</li>
+                  <li>• Vestibulum feugiat faucibus diam vel euismod</li>
+                  <li>• Aliquam erat volutpat</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="bg-espresso container-fluid height-50 d-flex justify-content-center align-items-center">
+    <div class="container-fluid m-3 border border-style rounded">
+      <p class="text-latte text-center pt-3">Copyright © Dec 2025 Martin Olsson</p>
+    </div>
+  </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"

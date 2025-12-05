@@ -71,3 +71,35 @@ body {
   border-style: dashed !important;
 }
 
+/* products.html */
+
+.product-card {
+  border: none;
+  border-radius: 0.75rem;
+  background-color: var(--cream);
+}
+
+.product-img {
+  max-height: 180px;
+  object-fit: cover;
+}
+
+.price-tag {
+  color: var(--espresso);
+  font-size: 1rem;
+}
+
+.btn-outline-espresso {
+  color: var(--espresso);
+  border-color: var(--espresso);
+  background-color: transparent;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-espresso:hover,
+.btn-outline-espresso:focus {
+  color: var(--latte);
+  background-color: var(--espresso);
+  border-color: var(--espresso);
+}
+
